@@ -1,67 +1,16 @@
-# sql-nosql-query-builder
-This project is a Query Builder tool that allows users to easily generate SQL and NoSQL queries without manually writing complex syntax.
-It supports interactive UI components where users can select tables, fields, conditions, and operators — and instantly view the generated query.
+# React + Vite
 
-🔥 Features
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-SQL Query Builder
+Currently, two official plugins are available:
 
-SELECT, INSERT, UPDATE, DELETE query generation
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Choose table, columns, conditions
+## React Compiler
 
-Supports AND/OR operators
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Auto-formatted clean output
+## Expanding the ESLint configuration
 
-NoSQL Query Builder
-
-MongoDB-style query generation
-
-Field selection, comparison operators
-
-Dynamic filter creation
-
-JSON formatted output
-
-Responsive User Interface
-
-Modern UI built for easy drag-and-drop / click-based selection
-
-Live preview panel for generated queries
-
-Error-free Query Output
-
-Validates fields and operators
-
-Prevents syntax errors
-
-Ensures database-friendly structure
-
-Export & Copy
-
-One-click copy query
-
-Export as .txt or .json
-
-🛠️ Tech Stack
-
-Frontend: React / HTML / CSS / JavaScript
-
-Backend: Node.js / Express (optional if you used it)
-
-Database: MySQL / MongoDB (for testing queries)
-
-📌 Why This Project?
-
-Helps beginners and developers generate complex queries faster
-
-Reduces manual syntax errors
-
-Useful tool for learning SQL/NoSQL
-
-Helpful for automation tasks and DB testing
-
-🚀 How to Run
-npm install
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
